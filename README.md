@@ -10,4 +10,4 @@ Step : 1st = >>> ( Click on Github Repositary Link of this Project ) = >>> ( Cli
 
 Note:- While Using the first step (1st) make sure you device must be connected to internet...
 
-Step : 2nd = >>> Click on the given website link { https://github.com/adi-optasia/dashboard_website_layout.git } which is hosted on github..
+Step : 2nd = >>> Click on the given website link { https://adi-optasia.github.io/dashboard_website_layout/ } which is hosted on github..
