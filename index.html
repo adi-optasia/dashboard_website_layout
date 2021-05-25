@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="Other_Files/css/styles.css" />
+    <title>Dashboard @Aditya Nath Mishra</title>
+  </head>
+
+  <body id="body-pd">
+    <header class="header" id="header">
+      <div class="header__toggle">
+        <i class="bx bx-menu" id="header-toggle"></i>
+      </div>
+
+      <div class="searchbox">
+        <form action="">
+          <input type="text" placeholder="Search" />
+          <i class="fa fa-search"></i>
+        </form>
+      </div>
+
+      <div class="header__img">
+        <img src="Other_Files/img/perfil.jpg" alt="" />
+      </div>
+    </header>
+
+    <div class="l-navbar" id="nav-bar">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav__logo">
+            <i class="bx bx-layer nav__logo-icon"></i>
+            <span class="nav__logo-name">XYZ Company</span>
+          </a>
+
+          <div class="nav__list">
+            <a href="#" class="nav__link active">
+              <i class="bx bx-grid-alt nav__icon"></i>
+              <span class="nav__name">Dashboard</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-user nav__icon"></i>
+              <span class="nav__name">About</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-message-square-detail nav__icon"></i>
+              <span class="nav__name">My Enrollment</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-medal nav__icon"></i>
+              <span class="nav__name">Achivements</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-folder nav__icon"></i>
+              <span class="nav__name">Forum</span>
+            </a>
+
+            <a href="#" class="nav__link">
+              <i class="bx bx-bar-chart-alt-2 nav__icon"></i>
+              <span class="nav__name">Analytics</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="#" class="nav__link">
+          <i class="bx bx-log-out nav__icon"></i>
+          <span class="nav__name">Log Out</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Main Content -->
+
+    <div class="main_content">
+      <div class="title">
+        <img src="Other_Files/img/hello.svg" alt="" />
+        <div class="title_message">
+          <h1>Hello Aditya Nath Mishra!</h1>
+          <p>Welcome to dashboard</p>
+        </div>
+      </div>
+
+      <!-- Top Cards -->
+
+      <div class="top_row">
+        <div class="col">
+          <div class="total_invoice">
+            <h3 class="cardtittle">Total Duration Of Classes</h3>
+            <span class="t-i">120 Hours</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="paid_invoice">
+            <h3 class="cardtittle">Class Attend</h3>
+            <span class="p-i">75 Hours</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="unpaid_invoice">
+            <h3 class="cardtittle">Total Number Of Exam</h3>
+            <span class="u-i">20</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="invoice_sent">
+            <h3 class="cardtittle">Test Attempted</h3>
+            <span class="i-s">15</span>
+          </div>
+        </div>
+      </div>
+      <!-- Top Cards Ends-->
+
+      <!--Bottom Cards  -->
+
+      <div class="charts">
+        <div class="child charts__left">
+          <!-- Graph -->
+          <div id="chart" style="width: 70%"></div>
+          <!-- Graph -->
+        </div>
+
+        <div class="child charts__right">
+          <div class="charts__right__title">
+            <div>
+              <h1>Last Exam Subject's Number</h1>
+              <p>Aditya Nath Mishra</p>
+            </div>
+            <i class="fa bx-fade-left" aria-hidden="true"></i>
+          </div>
+
+          <div class="charts__right__cards">
+            <div class="card card1">
+              <h1>Math</h1>
+              <p>80/100</p>
+            </div>
+
+            <div class="card card2">
+              <h1>Physics</h1>
+              <p>50/100</p>
+            </div>
+
+            <div class="card card3">
+              <h1>Chemistry</h1>
+              <p>95/100</p>
+            </div>
+
+            <div class="card card4">
+              <h1>Computer</h1>
+              <p>78/100</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main content End -->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="Other_Files/js/main.js"></script>
+  </body>
+</html>
